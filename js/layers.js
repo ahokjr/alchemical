@@ -28,7 +28,7 @@ addLayer("p", {
         11: {
             title: "Make this whatever you want!",
             description: "Double your point gain.",
-            cost: new Decimal(1),
+            cost: new Decimal(10),
             effect (){
                 if (hasUpgrade('p', 11)) gain = gain.times(2)
             }
